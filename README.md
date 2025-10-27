@@ -31,30 +31,6 @@ Database -	SQLite - Lightweight and embedded database to store user and preferen
 
 ---
 
-## System Architecture
-┌───────────────────────────────┐
-│         Frontend (PHP)        │
-│  - index.html / assign_room   │
-│  - User input forms           │
-└──────────────┬────────────────┘
-               │
-               ▼
-┌───────────────────────────────┐
-│         Backend (Python)      │
-│  - assign_room.py             │
-│  - add_student.py             │
-│  - Matching algorithm logic   │
-└──────────────┬────────────────┘
-               │
-               ▼
-┌───────────────────────────────┐
-│       Database (SQLite)       │
-│  - Stores users, preferences  │
-│  - Accessed via python_db.py  │
-└───────────────────────────────┘
-
----
-
 ## How It Works
 
 Users enter their name, email, and lifestyle preferences through an HTML/PHP form.
