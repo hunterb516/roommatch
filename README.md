@@ -49,13 +49,12 @@ else:
 
 ## File Overview
 
-File	Description
-index.html	Main landing page for user input.
-add_student.py / add_student.php	Scripts for adding new user data into the database.
-assign_room.py / assign_room.php	Core matching logic and result display.
-python_db.py	Database connection and query handling (SQLite).
-seed_db.py	Initializes the database with sample users for testing.
-hello.py / hello.html	Example test endpoints used during setup.
+- index.html	Main landing page for user input.
+- add_student.py / add_student.php	Scripts for adding new user data into the database.
+- assign_room.py / assign_room.php	Core matching logic and result display.
+- python_db.py	Database connection and query handling (SQLite).
+- seed_db.py	Initializes the database with sample users for testing.
+- hello.py / hello.html	Example test endpoints used during setup.
 
 ---
 
