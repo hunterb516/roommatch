@@ -1,0 +1,35 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+.venv/
+
+# PHP
+vendor/
+
+# Logs & databases
+*.log
+*.sqlite3
+*.db
+
+# Node / Web
+node_modules/
+dist/
+build/
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Temp / backups
+*.bak
+.cache/
+tmp/
